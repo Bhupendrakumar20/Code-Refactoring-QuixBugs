@@ -3,8 +3,8 @@ from test_harness import process_program
 import csv
 
 def main():
-    buggy_dir = Path("../python_programs")
-    fixed_dir = Path("../fixed_programs")
+    buggy_dir = Path("..project/python_programs")
+    fixed_dir = Path("..project/fixed_programs")
     fixed_dir.mkdir(exist_ok=True)
     
     results = []
